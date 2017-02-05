@@ -16,6 +16,8 @@ public class parking {
     private int tickPause;
     public static boolean run;
 	
+    //test
+    
 	/**
 	 * Maakt nieuwe instantie voor Controllers en scherm
 	 * Zet de waarden neer voor titels layouts en 
