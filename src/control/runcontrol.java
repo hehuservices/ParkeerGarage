@@ -33,13 +33,13 @@ public class runcontrol  extends abstractcontrol implements ActionListener {
 		volgendeStappen.setOpaque(true);
 		
 		/*Button voor het starten van het parkeren*/
-		start = new JButton("Start parkeren");
+		start = new JButton("Start");
 		start.addActionListener(this);
 		start.setBackground(Color.GREEN);
 		start.setOpaque(true);
 		
 		/*Button voor het stoppen van het parkeren*/
-		stop = new JButton("Stop parkeren");
+		stop = new JButton("Stop");
 		stop.addActionListener(this);
 		stop.setBackground(Color.RED);
 		stop.setOpaque(true);

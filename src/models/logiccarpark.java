@@ -258,15 +258,15 @@ public class logiccarpark extends abstractmodel {
     public void tick() {
         // Advance the time by one minute.
         minute++;
-        while (minute > 59) {
+        if (minute > 59) {
             minute -= 60;
             hour++;
         }
-        while (hour > 23) {
+        if (hour > 23) {
             hour -= 24;
             day++;
         }
-        while (day > 6) {
+        if (day > 6) {
             day -= 7;
         }
         
